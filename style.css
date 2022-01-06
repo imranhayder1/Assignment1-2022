@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
 }
 h1{
     font-size: 30px;
@@ -11,7 +10,7 @@ h1{
 }
 button{
     background-color: rgb(4, 189, 245);
-    width: 200px;
+    width: auto;
     height: 50px;
     font-size: 25px;
     color: white;
@@ -19,29 +18,35 @@ button{
     border-radius: 10px;
 }
 .first-container{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 100px;
 }
 .first-div{
     width: 50%;
+    padding-left: 50px;
+}
+.head{
+    padding-top: 150px;
+}
+.middil{
+    padding-top: 70px;
 }
 
 .top-pra p{
     text-align: justify;
 }
-.first-div img{
-    width: 75%;
-}
-.part-2-heading{
+
+.part-2-heading h1{
     text-align: center;
+    font-size: 50px;
 }
 .second-div{
     width: 26.6%;
-    padding: 10px;
+    padding: 20px;
 }
 .second-div img{
-    width: 100%;
+    width: 80%;
 }
 .bg-color-1{
     background-color: rgba(126, 12, 233, 0.082);
@@ -57,4 +62,31 @@ button{
     background-color: rgba(18, 44, 56, 0.082);
     border-radius: 10px;
     height: auto;
+}
+.third-div{
+    display: flex;
+    width: 80%;
+    padding-left: 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin-bottom: 100px;
+}
+
+.read-part{
+    padding-left: 50px;
+}
+.four-div{
+    display: flex;
+    width: 80%;
+    padding: 50px;
+}
+
+.hearder h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgba(3, 88, 245, 0.281);
 }
