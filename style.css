@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 h1{
     font-size: 30px;
@@ -83,6 +84,9 @@ button{
     text-align: center;
 }
 footer{
+    margin: 0;
     text-align: center;
-    background-color: rgba(3, 88, 245, 0.281);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(58, 64, 73, 0.281);
 }
